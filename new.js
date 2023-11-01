@@ -69,11 +69,6 @@ Books.prototype.info = function(){
 
 const Book1 = new Books(1,'ido',300,2000)
 const Book2 = new Books(2,'idoDo',100,2023)
-const arr = [Book1,Book2]
 
-// console.log(arr.length)
-
-for(let i = 0;i<arr.length;i++){
-  // console.log(arr.length)
-  console.log(arr[i].info())
-}
+console.log(Book1.info())
+console.log(Book2.info())
