@@ -10,3 +10,5 @@ export {
   functionOne,
   functionTwo
 }
+
+console.log("!...ido...!")
