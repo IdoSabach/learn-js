@@ -1,5 +1,5 @@
-function joke(){
-  return "ido sabah"
+function joke () {
+  return 'ido sabah'
 }
 
 export default joke
