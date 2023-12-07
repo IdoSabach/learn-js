@@ -1,0 +1,52 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  /* outline: 1px red solid; */
+}
+
+.header{
+  background-color:cadetblue;
+  display: flex;
+  align-items: center;
+  color: white;
+  justify-content: space-around;
+}
+
+.logo{
+  font-size: 40px;
+  margin: 25px 0px 25px;
+}
+
+.menu{
+  display: flex;
+}
+
+li{
+  margin: 25px 25px 25px;
+  list-style: none;
+  font-size: 24px;
+  transition: 2s ;
+}
+
+.nav-bar{
+  color: white;
+  text-decoration: none;
+}
+
+.nav-bar:hover{
+  color: black;
+}
+
+.menu-btn{
+  display: flex;
+  align-items: center;
+  background: none;
+  border-style: none;
+  color: white;
+}
+
+#menu-btn{
+  font-size: 40px;
+  cursor: pointer;
+}
