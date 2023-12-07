@@ -15,7 +15,7 @@
   \**********************/
 /***/ (() => {
 
-eval("\r\n\n\n//# sourceURL=webpack://learn-js/./src/index.js?");
+eval("const menu = document.querySelector('.menu')\r\nconst menuBtn = document.querySelector('.menu-btn')\r\n\r\nmenuBtn.addEventListener('click',function(){\r\n  if(menu.style.display === \"none\"){\r\n    menu.style.display = \"flex\"\r\n  }else{\r\n    menu.style.display = \"none\"\r\n  }\r\n})\n\n//# sourceURL=webpack://learn-js/./src/index.js?");
 
 /***/ })
 
